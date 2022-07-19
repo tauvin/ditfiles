@@ -155,7 +155,7 @@
     format = html
 
 [init]
-    defaultBranch = main
+	defaultBranch = main
 
 [interactive]
     diffFilter = delta --color-only
@@ -189,13 +189,8 @@
 [tag]
     forceSignAnnotated = true
     gpgSign = true
-
 [url "ssh://git@github.com/"]
     insteadOf = https://github.com/
-
-[url "https://mxkbbc265czljerb4jmecawj33pocsfm64yegamqbsll4g4porua@dev.azure.com"]
-    insteadOf = https://dev.azure.com
-
 [hub]
     protocol = https
 
