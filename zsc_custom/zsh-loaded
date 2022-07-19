@@ -1,0 +1,2 @@
+# Don't show `cache` option for cat/bat
+compdef _files bat
